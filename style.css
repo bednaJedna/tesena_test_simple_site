@@ -1,26 +1,23 @@
 ﻿/* Main elements of the page */
 
-body
-{
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
-#main_wrapper
-{
-    width: 900px;
-    margin: auto;
+#main_wrapper {
+  width: 900px;
+  margin: auto;
 }
-
 
 /* Header */
-
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
 
 /* Banner */
 
-
 /* Body */
 
-
 /* Footer */
-
-
