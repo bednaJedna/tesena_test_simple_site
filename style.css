@@ -23,12 +23,16 @@ body {
 }
 
 /* Article */
+#articlePinnedHeading {
+  margin-bottom: 20px;
+}
+
 #articleHeading {
   text-transform: uppercase;
 }
 
 #article {
-    text-align: justify;
+  text-align: justify;
 }
 
 /* Body */
