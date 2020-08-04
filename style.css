@@ -68,6 +68,19 @@ body {
 }
 
 /* Footer */
+
+#footer {
+  margin-top: 20px;
+  max-height: 150px;
+}
+
+#myFriendsList {
+  list-style-image: url("images/external_link.png");
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
 .flex-container-footer {
   display: flex;
   flex-direction: row;
