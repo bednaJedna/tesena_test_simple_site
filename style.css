@@ -18,6 +18,18 @@ body {
 }
 
 /* Banner */
+#banner_image {
+  margin-bottom: 20px;
+}
+
+/* Article */
+#articleHeading {
+  text-transform: uppercase;
+}
+
+#article {
+    text-align: justify;
+}
 
 /* Body */
 
