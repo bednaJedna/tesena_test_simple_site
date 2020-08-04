@@ -53,6 +53,12 @@ body {
   text-align: justify;
 }
 
+.flex-container-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 #aboutHeading {
   text-align: center;
 }
