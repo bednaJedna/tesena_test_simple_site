@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   flex-basis: 200px;
 }
 
@@ -48,6 +48,7 @@ body {
 
 /* Aside */
 #aside {
+  background-color: rgb(245, 245, 245);
   margin-left: 20px;
   flex: 1 1 0;
   text-align: justify;
@@ -70,6 +71,7 @@ body {
 /* Footer */
 
 #footer {
+    background-color: rgb(241, 241, 241);
   margin-top: 20px;
   max-height: 150px;
 }
@@ -85,4 +87,8 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.footerItemHeading {
+  text-align: center;
 }
