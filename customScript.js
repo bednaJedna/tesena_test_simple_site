@@ -1,6 +1,6 @@
 function changeHeading(newHeading) {
   let element = document.getElementById("lastTweetHeading");
-  element.innerText = newHeading;
+  element.innerHTML = `<h5>${newHeading}</h5>`;
   return element;
 }
 
